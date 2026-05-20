@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional regenerated artifacts
+data/extracted/*.tmp
+*.log
+
+# Keep screenshot placeholder, ignore local exported screenshots until curated
+assets/screenshots/*
+!assets/screenshots/.gitkeep
